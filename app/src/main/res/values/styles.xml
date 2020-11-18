@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="personal_data">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="main_card">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#898989</item>
+    </style>
+
+    <style name="add_btn">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+    <style name="about_card">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#B2B2B2</item>
+    </style>
+
+    <style name="card_numbers">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="master_card">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#898989</item>
+    </style>
+
+</resources>

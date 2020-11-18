@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Figma4</string>
+    <string name="my_cards_text">Мои карты</string>
+    <string name="main_card_text">Основная карта для оплаты</string>
+    <string name="choice_text">Выбрать другую карту</string>
+    <string name="add_text">Добавить</string>
+    <string name="cloud_payments_text">Мы храним и не обрабатываем данные банковских карт. Все операции защищены Cloud Payments</string>
+    <string name="card_numbers_text">5101 45 •• •••• 6981</string>
+    <string name="master_card_text">Master card</string>
+</resources>
