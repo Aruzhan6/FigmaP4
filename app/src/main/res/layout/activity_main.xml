@@ -24,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/mycardsTv"
+            android:id="@+id/my_cardsTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="144dp"
@@ -46,7 +46,7 @@
             android:layout_marginLeft="25dp"
             android:text="@string/main_card_text"
             android:textAppearance="@style/main_card"
-            app:layout_constraintTop_toBottomOf="@+id/mycardsTv"
+            app:layout_constraintTop_toBottomOf="@+id/my_cardsTv"
             app:layout_constraintLeft_toLeftOf="parent" />
 
         <View
@@ -134,8 +134,17 @@
             android:layout_marginLeft="25dp"
             android:text="@string/choice_text"
             android:textAppearance="@style/main_card"
-            app:layout_constraintTop_toBottomOf="@+id/mycardsTv"
+            app:layout_constraintTop_toBottomOf="@+id/my_cardsTv"
             app:layout_constraintLeft_toLeftOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/choiceTv"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
 
         <Button
             android:id="@+id/addBtn"
